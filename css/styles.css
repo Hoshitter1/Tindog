@@ -1,27 +1,29 @@
 body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat-Black', sans-serif;
-}
-
-h1 {
-    size: 3rem;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-h2 {
-    size: 3rem;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-h3 {
-    size: 1.5rem;
     line-height: 1.5;
     font-weight: bold;
 }
 
 p {
    color: #8f8f8f;
+}
+
+/*Containers*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*Heading*/
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
 }
 
 /*Navigation Bar*/
@@ -46,36 +48,49 @@ p {
     font-family: "Montserrat-Light", sans-serif;
 }
 
-.container-fluid {
-    padding: 3% 15% 20% 15%;
+/*Title Section*/
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 15% 15%;
 }
 
 /*Title Image*/
 
 .iphone {
-    width: 60%;
+    width: 50%;
     transform: rotateZ(25deg);
     position: absolute;
+    right: 30%;
 }
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .iphone {
+        transform: rotateZ(0);
+        position: static;
+    }
+}
+
 
 .download-button {
     margin: 5% 3% 5% 0;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-
+/*Feature Section*/
 #features {
     background-color: white;
-    text-align: center;
-    padding: 7% 15%;
     position: relative;
     z-index: 1;
 }
 
-/*Features icon*/
 .feature-icon {
     color: #ef8172;
     padding-bottom: 5%;
@@ -85,14 +100,15 @@ p {
     color: #ff4c68;
 }
 
-#testimonials {
-    text-align: center;
-    background-color: #ef8172;
-    color: white;
+.feature-text {
+    size: 1.5rem;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+/*Testimonial Section*/
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
 }
 
 .testimonial-image {
@@ -101,9 +117,13 @@ p {
     margin: 20px;
 }
 
+.testimonial-text {
+    size: 3rem;
+    line-height: 1.5;
+}
+
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -116,9 +136,29 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.price-text {
+    size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+}
+
+.bottom-download {
+    font-family: 'Montserrat-Black', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.footer-icon {
+    padding: 2rem 0.5rem;
 }
