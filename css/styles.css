@@ -18,6 +18,16 @@ p {
     padding: 7% 15%;
 }
 
+/*Sections*/
+.colored-section {
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+
+.white-section {
+    color: black;
+}
+
 /*Heading*/
 .big-heading {
     font-size: 3rem;
@@ -51,8 +61,6 @@ p {
 /*Title Section*/
 
 #title {
-    background-color: #ff4c68;
-    color: white;
     text-align: left;
 }
 
@@ -86,7 +94,6 @@ p {
 
 /*Feature Section*/
 #features {
-    background-color: white;
     position: relative;
     z-index: 1;
 }
@@ -108,7 +115,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-image {
@@ -147,13 +153,8 @@ p {
     padding: 3% 2%;
 }
 
-#cta {
-    background-color: #ff4c68;
-}
-
 .bottom-download {
     font-family: 'Montserrat-Black', sans-serif;
-    color: white;
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: bold;
