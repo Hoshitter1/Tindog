@@ -86,6 +86,9 @@ p {
         position: relative;
         left: 10rem;
     }
+    .navbar {
+        margin-right: 0;
+    }
 }
 
 /*Feature Section*/
