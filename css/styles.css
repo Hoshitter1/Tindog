@@ -13,6 +13,14 @@ p {
    color: #8f8f8f;
 }
 
+/*Heading*/
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+}
+
 /*Containers*/
 .container-fluid {
     padding: 7% 15%;
@@ -26,14 +34,6 @@ p {
 
 .white-section {
     color: black;
-}
-
-/*Heading*/
-.big-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: bold;
-    color: white;
 }
 
 /*Navigation Bar*/
@@ -58,14 +58,17 @@ p {
     font-family: "Montserrat-Light", sans-serif;
 }
 
-/*Title Section*/
+/*Buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Sections*/
 
 #title .container-fluid {
     padding: 3% 15% 15% 15%;
     text-align: left;
 }
-
-/*Title Image*/
 
 .iphone {
     width: 50%;
@@ -82,11 +85,6 @@ p {
         transform: rotateZ(0);
         position: static;
     }
-}
-
-
-.download-button {
-    margin: 5% 3% 5% 0;
 }
 
 /*Feature Section*/
