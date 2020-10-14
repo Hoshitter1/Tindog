@@ -78,13 +78,12 @@ p {
 }
 
 @media (max-width: 1028px) {
-    #title {
+    #title .container-fluid{
         text-align: center;
     }
     .iphone {
         transform: rotateZ(0);
-        position: relative;
-        left: 10rem;
+        position: static;
     }
     .navbar {
         margin-right: 0;
