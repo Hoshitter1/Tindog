@@ -83,7 +83,8 @@ p {
     }
     .iphone {
         transform: rotateZ(0);
-        position: static;
+        position: relative;
+        left: 10rem;
     }
 }
 
