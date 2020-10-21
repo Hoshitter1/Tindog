@@ -76,8 +76,23 @@ p {
     position: absolute;
     right: 30%;
 }
+#title .big-heading:before {
+    content: "Meet new and interesting dogs nearby";
+}
+
+#cta .big-heading:before {
+    content: "Find the True Love of Your Dog's Life Today.";
+}
 
 @media (max-width: 1028px) {
+    #title .big-heading:before {
+        content: "Meet new dogs nearby";
+    }
+
+    #cta .big-heading:before {
+        content: "Find the True Love Today.";
+    }
+
     #title .container-fluid{
         text-align: center;
     }
@@ -87,6 +102,12 @@ p {
     }
     .navbar {
         margin-right: 0;
+    }
+    .big-heading {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        font-weight: bold;
+        color: white;
     }
 }
 
